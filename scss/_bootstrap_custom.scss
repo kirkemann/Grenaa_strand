@@ -1,0 +1,26 @@
+// Eget style/theming som skal overrider BS
+$primary: $lightblue;
+$danger: #4DAFD2;
+$sand: #E5DCC2;
+$puce: #CD8291;
+
+$body-bg: #fff;
+$body-color: #111;
+
+$theme-colors: (
+    "primary": #2E8DBF,
+    "danger" : #4DAFD2,
+    "sand": #E5DCC2,
+    "puce": #CD8291
+
+);
+$border-radius: 2rem;
+
+
+// import af BS - EFTER eget "override"
+// Hent ALT
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
