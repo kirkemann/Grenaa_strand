@@ -7245,8 +7245,17 @@ a.text-puce:hover, a.text-puce:focus {
   margin: 0;
   padding: 0; }
 
+.material-icons {
+  font-size: 17px;
+  padding: 3.4px;
+  color: #2E8DBF;
+  background-color: white;
+  border-radius: 25%;
+  border: 1px solid #2E8DBF;
+  cursor: pointer; }
+
 #section {
-  background-image: url(/SassOpgaver/grenaa_strand/assets/images/hav_grenaa.jpg);
+  background-image: url(./assets/images/hav_grenaa.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
