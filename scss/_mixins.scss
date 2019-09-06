@@ -8,16 +8,6 @@
     border: 1px solid $primary;
     cursor: pointer;
 
-    // #social-1
-    // {
-    //     font-size: $fontsize;
-    //     padding: 15px;
-    //     color: $lightblue;
-    //     background-color: white;
-    //     border-radius: 25%;
-    //     border: 1px solid $primary;
-    //     cursor: pointer;
-    // }
 }
 @mixin text ($textfont, $textbtn: $sand) {
     font-size: $textfont;
@@ -26,7 +16,7 @@
 }
 
 @mixin bg {
-    background-image: url(/SassOpgaver/grenaa_strand/assets/images/hav_grenaa.jpg);
+    background-image: url(./assets/images/hav_grenaa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
